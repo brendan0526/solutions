@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Current Customers — MDL Insurance Solutions</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="index.html" class="logo">MDL <span>Insurance</span><small>Solutions, LLC · Licensed in Multiple States</small></a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="personal.html">Personal</a>
+      <a href="commercial.html">Commercial</a>
+      <a href="customers.html" class="active">Current Customers</a>
+      <a href="quote.html" class="nav-cta">Get a Quote</a>
+    </nav>
+    <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false">≡</button>
+  </div>
+  <div class="mobile-nav" id="mobile-nav">
+    <a href="index.html">Home</a>
+    <a href="personal.html">Personal</a>
+    <a href="commercial.html">Commercial</a>
+    <a href="customers.html" class="active">Current Customers</a>
+    <a href="quote.html" class="nav-cta">Get a Quote</a>
+  </div>
+</header>
+
+<section class="hero topo-bg" style="padding-bottom:48px;">
+  <div class="wrap">
+    <div class="label">Current Customers</div>
+    <h1>How can we<br>help you today?</h1>
+    <p style="max-width:520px; margin-top:16px; font-size:1.05rem;">Submit a request below and we'll take care of it — most requests are handled same business day.</p>
+    <div style="display:flex; gap:28px; margin-top:28px; flex-wrap:wrap;">
+      <div class="trust-item">
+        <span class="trust-num">Same day</span>
+        <span class="trust-label">ID cards & COIs</span>
+      </div>
+      <div class="trust-item">
+        <span class="trust-num">1 day</span>
+        <span class="trust-label">Policy changes</span>
+      </div>
+      <div class="trust-item">
+        <span class="trust-num">Direct</span>
+        <span class="trust-label">Real person, no hold music</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Quick contact strip -->
+<div style="background:var(--sage); padding:20px 0; border-bottom:2px solid var(--sage-soft);">
+  <div class="wrap">
+    <div style="display:flex; gap:32px; align-items:center; flex-wrap:wrap;">
+      <span style="color:var(--taupe-light); font-size:0.82rem; font-weight:600;">Need something urgent?</span>
+      <a href="tel:+14804363529" style="color:var(--terracotta-light); font-weight:700; font-family:var(--font-tight);">📞 (480) 436-3529</a>
+      <a href="mailto:Brendan@mdlinsurancepro.com" style="color:var(--terracotta-light); font-weight:700; font-family:var(--font-tight);">✉️ Brendan@mdlinsurancepro.com</a>
+    </div>
+  </div>
+</div>
+
+<section style="padding-top:56px;">
+  <div class="wrap">
+    <form class="form-panel" id="service-form" style="max-width:800px;">
+
+      <h3 style="margin-bottom:8px;">What do you need?</h3>
+      <p style="margin-bottom:24px; font-size:0.9rem;">Select the request type and fill in the details — we'll handle the rest.</p>
+
+      <div class="checkbox-grid" style="margin-bottom:32px;">
+        <label class="checkbox-item"><input type="checkbox" name="request" value="ID Cards"> 🪪 Auto ID Cards</label>
+        <label class="checkbox-item"><input type="checkbox" name="request" value="COI"> 📄 Certificate of Insurance</label>
+        <label class="checkbox-item"><input type="checkbox" name="request" value="Add Vehicle"> 🚗 Add a Vehicle</label>
+        <label class="checkbox-item"><input type="checkbox" name="request" value="Remove Vehicle"> 🚙 Remove a Vehicle</label>
+        <label class="checkbox-item"><input type="checkbox" name="request" value="Add Driver"> 👤 Add a Driver</label>
+        <label class="checkbox-item"><input type="checkbox" name="request" value="Remove Driver"> 👤 Remove a Driver</label>
+        <label class="checkbox-item"><input type="checkbox" name="request" value="Additional Insured"> 🏢 Add Additional Insured</label>
+        <label class="checkbox-item"><input type="checkbox" name="request" value="Policy Change"> ✏️ Policy Change</label>
+        <label class="checkbox-item"><input type="checkbox" name="request" value="Billing Question"> 💳 Billing Question</label>
+        <label class="checkbox-item"><input type="checkbox" name="request" value="Claim Help"> 🚨 Help with a Claim</label>
+        <label class="checkbox-item"><input type="checkbox" name="request" value="Coverage Question"> ❓ Coverage Question</label>
+        <label class="checkbox-item"><input type="checkbox" name="request" value="Other"> ➕ Other</label>
+      </div>
+
+      <h3 style="margin-bottom:20px;">Your Info</h3>
+      <div class="form-grid" style="margin-bottom:32px;">
+        <div class="form-field">
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-field">
+          <label for="phone">Best phone number</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-field">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-field">
+          <label for="policy">Policy number (if you have it)</label>
+          <input type="text" id="policy" name="policy" placeholder="Optional">
+        </div>
+      </div>
+
+      <div class="form-field full" style="margin-bottom:32px;">
+        <label for="details">Details about your request</label>
+        <textarea id="details" name="details" rows="4" placeholder="e.g. I need a COI for my new GC — name is ABC Builders, address is 123 Main St Phoenix AZ. Additional insured needed."></textarea>
+      </div>
+
+      <div class="form-field full" style="margin-bottom:32px;">
+        <label for="best_time">Best time to reach you (if we need to follow up)</label>
+        <input type="text" id="best_time" name="best_time" placeholder="e.g. Mornings, after 3pm, anytime">
+      </div>
+
+      <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center; font-size:1rem; padding:18px;">Submit request →</button>
+      <p style="font-size:0.78rem; color:var(--taupe); margin-top:14px; line-height:1.5;">We typically respond same business day for ID cards and certificates. Policy changes and other requests are usually handled within one business day. For urgent matters, call us directly at <a href="tel:+14804363529" style="color:var(--terracotta-dark);">(480) 436-3529</a>.</p>
+    </form>
+
+    <div id="form-success" style="display:none; text-align:center; padding:80px 20px; max-width:560px; margin:0 auto;">
+      <div style="font-size:3rem; margin-bottom:20px;">✅</div>
+      <h2 style="margin-bottom:14px;">Request received.</h2>
+      <p style="font-size:1.05rem;">We'll take care of it and follow up if we need anything from you. For urgent requests, call <a href="tel:+14804363529" style="color:var(--terracotta-dark); font-weight:700;">(480) 436-3529</a> directly.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>MDL Insurance Solutions</h4>
+        <p>Independent insurance agency licensed in multiple states.</p>
+        <p style="margin-top:12px;">NPN: 21218944</p>
+      </div>
+      <div class="footer-col">
+        <h4>Personal</h4>
+        <a href="personal.html">Auto Insurance</a>
+        <a href="personal.html">Home Insurance</a>
+        <a href="personal.html">Renters Insurance</a>
+        <a href="personal.html">SR-22 Filing</a>
+        <a href="personal.html">Motorcycle</a>
+      </div>
+      <div class="footer-col">
+        <h4>Commercial</h4>
+        <a href="commercial.html">General Liability</a>
+        <a href="commercial.html">Contractor Insurance</a>
+        <a href="commercial.html">Workers' Comp</a>
+        <a href="commercial.html">BOP</a>
+        <a href="commercial.html">Builder's Risk</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="tel:+14804363529">(480) 436-3529</a>
+        <a href="mailto:Brendan@mdlinsurancepro.com">Brendan@mdlinsurancepro.com</a>
+        <a href="quote.html">Get a Quote</a>
+        <a href="customers.html">Current Customers</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 MDL Insurance Solutions, LLC. All rights reserved.</span>
+      <span>NPN: 21218944 · Licensed in multiple states · Coverage subject to underwriting approval.</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+document.getElementById('service-form').addEventListener('submit', async function(e) {
+  e.preventDefault();
+  var form = this;
+  var submitBtn = form.querySelector('button[type="submit"]');
+  submitBtn.textContent = 'Sending...';
+  submitBtn.disabled = true;
+
+  var requests = Array.from(form.querySelectorAll('input[name="request"]:checked'))
+                      .map(function(cb) { return cb.value; }).join(', ') || 'None selected';
+
+  var payload = {
+    access_key: 'ec1e66be-d7bb-4315-ad79-1dcffc0374ff',
+    subject: 'Customer Service Request — MDL Insurance Solutions',
+    from_name: 'MDL Insurance Solutions Website',
+    name:       form.querySelector('#name').value,
+    email:      form.querySelector('#email').value,
+    phone:      form.querySelector('#phone').value,
+    policy:     form.querySelector('#policy').value || 'Not provided',
+    requests:   requests,
+    details:    form.querySelector('#details').value || 'None',
+    best_time:  form.querySelector('#best_time').value || 'Not specified'
+  };
+
+  try {
+    var res = await fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+    var data = await res.json();
+    if (data.success) {
+      form.style.display = 'none';
+      document.getElementById('form-success').style.display = 'block';
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+      throw new Error(data.message || 'Submission failed');
+    }
+  } catch (err) {
+    submitBtn.textContent = 'Something went wrong — please call (480) 436-3529';
+    submitBtn.style.background = 'var(--sage)';
+    submitBtn.disabled = false;
+  }
+});
+
+(function() {
+  var toggle = document.querySelector('.mobile-toggle');
+  var menu = document.getElementById('mobile-nav');
+  if (!toggle || !menu) return;
+  toggle.addEventListener('click', function() {
+    var isOpen = menu.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    toggle.textContent = isOpen ? '×' : '≡';
+  });
+})();
+</script>
+
+</body>
+</html>
