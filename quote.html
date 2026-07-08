@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Get a Quote — MDL Insurance Solutions</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="index.html" class="logo">MDL <span>Insurance</span><small>Solutions, LLC · Licensed in Multiple States</small></a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="personal.html">Personal</a>
+      <a href="commercial.html">Commercial</a>
+      <a href="customers.html">Current Customers</a>
+      <a href="quote.html" class="nav-cta active">Get a Quote</a>
+    </nav>
+    <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false">≡</button>
+  </div>
+  <div class="mobile-nav" id="mobile-nav">
+    <a href="index.html">Home</a>
+    <a href="personal.html">Personal</a>
+    <a href="commercial.html">Commercial</a>
+    <a href="customers.html">Current Customers</a>
+    <a href="quote.html" class="nav-cta active">Get a Quote</a>
+  </div>
+</header>
+
+<section class="hero topo-bg" style="padding-bottom:48px;">
+  <div class="wrap">
+    <div class="label">Free Quote</div>
+    <h1 style="font-size:clamp(2rem,4.5vw,3.4rem);">Tell us what<br>you need covered.</h1>
+    <p style="max-width:520px; margin-top:16px; font-size:1.05rem;">We'll come back with real options from real carriers — not a placeholder estimate.</p>
+  </div>
+</section>
+
+<section style="padding-top:0;">
+  <div class="wrap">
+    <form class="form-panel" id="quote-form" style="max-width:800px;">
+
+      <h3 style="margin-bottom:24px;">Your Contact Info</h3>
+      <div class="form-grid" style="margin-bottom:32px;">
+        <div class="form-field">
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-field">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-field">
+          <label for="phone">Phone number</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-field">
+          <label for="zip">ZIP code</label>
+          <input type="text" id="zip" name="zip" placeholder="e.g. 85001">
+        </div>
+      </div>
+
+      <h3 style="margin-bottom:24px;">What do you need covered?</h3>
+      <div class="checkbox-grid" style="margin-bottom:32px;">
+        <label class="checkbox-item"><input type="checkbox" name="coverage" value="Auto"> 🚗 Auto</label>
+        <label class="checkbox-item"><input type="checkbox" name="coverage" value="Home"> 🏠 Home</label>
+        <label class="checkbox-item"><input type="checkbox" name="coverage" value="Renters"> 🔑 Renters</label>
+        <label class="checkbox-item"><input type="checkbox" name="coverage" value="Motorcycle"> 🏍️ Motorcycle</label>
+        <label class="checkbox-item"><input type="checkbox" name="coverage" value="SR22"> 📋 SR-22</label>
+        <label class="checkbox-item"><input type="checkbox" name="coverage" value="Landlord"> 🏡 Landlord</label>
+        <label class="checkbox-item"><input type="checkbox" name="coverage" value="GL"> 🛡️ General Liability</label>
+        <label class="checkbox-item"><input type="checkbox" name="coverage" value="BOP"> 📦 BOP</label>
+        <label class="checkbox-item"><input type="checkbox" name="coverage" value="Contractor"> 👷 Contractor</label>
+        <label class="checkbox-item"><input type="checkbox" name="coverage" value="WorkersComp"> 👥 Workers' Comp</label>
+        <label class="checkbox-item"><input type="checkbox" name="coverage" value="CommercialAuto"> 🚚 Commercial Auto</label>
+        <label class="checkbox-item"><input type="checkbox" name="coverage" value="Other"> ➕ Other / Not sure</label>
+      </div>
+
+      <div class="form-field full" style="margin-bottom:32px;">
+        <label for="notes">Anything we should know? (optional)</label>
+        <textarea id="notes" name="notes" rows="3"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center; font-size:1rem; padding:18px;">Get my free quote →</button>
+      <p style="font-size:0.78rem; color:var(--taupe); margin-top:14px; line-height:1.5;">By submitting, you consent to be contacted by MDL Insurance Solutions by phone, email, or text regarding your quote request, even if your number is on a Do Not Call registry. This is not a condition of purchase. View our <a href="privacy.html" style="color:var(--terracotta-dark); text-decoration:underline;">Privacy Policy</a>.</p>
+    </form>
+
+    <div id="form-success" style="display:none; text-align:center; padding:80px 20px; max-width:560px; margin:0 auto;">
+      <div style="font-size:3rem; margin-bottom:20px;">✅</div>
+      <h2 style="margin-bottom:14px;">Got it — we're on it.</h2>
+      <p style="font-size:1.05rem;">Someone from MDL will follow up within one business day with real options for your coverage. If you need something faster, call us directly at <a href="tel:+14804363529" style="color:var(--terracotta-dark); font-weight:700;">(480) 436-3529</a>.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>MDL Insurance Solutions</h4>
+        <p>Independent insurance agency licensed in multiple states, serving clients across Arizona, Iowa, Missouri, and beyond.</p>
+        <p style="margin-top:12px;">NPN: 21218944</p>
+      </div>
+      <div class="footer-col">
+        <h4>Personal</h4>
+        <a href="personal.html">Auto Insurance</a>
+        <a href="personal.html">Home Insurance</a>
+        <a href="personal.html">Renters Insurance</a>
+        <a href="personal.html">SR-22 Filing</a>
+        <a href="personal.html">Motorcycle</a>
+      </div>
+      <div class="footer-col">
+        <h4>Commercial</h4>
+        <a href="commercial.html">General Liability</a>
+        <a href="commercial.html">Contractor Insurance</a>
+        <a href="commercial.html">Workers' Comp</a>
+        <a href="commercial.html">BOP</a>
+        <a href="commercial.html">Builder's Risk</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="tel:+14804363529">(480) 436-3529</a>
+        <a href="mailto:Brendan@mdlinsurancepro.com">Brendan@mdlinsurancepro.com</a>
+        <a href="customers.html">Current Customers</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 MDL Insurance Solutions, LLC. All rights reserved.</span>
+      <span>NPN: 21218944 · Licensed in multiple states · Coverage subject to underwriting approval.</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+document.getElementById('quote-form').addEventListener('submit', async function(e) {
+  e.preventDefault();
+  var form = this;
+  var submitBtn = form.querySelector('button[type="submit"]');
+  submitBtn.textContent = 'Sending...';
+  submitBtn.disabled = true;
+
+  var coverages = Array.from(form.querySelectorAll('input[name="coverage"]:checked'))
+                       .map(function(cb) { return cb.value; }).join(', ') || 'None selected';
+
+  var payload = {
+    access_key: 'ec1e66be-d7bb-4315-ad79-1dcffc0374ff',
+    subject: 'New Quote Request — MDL Insurance Solutions',
+    from_name: 'MDL Insurance Solutions Website',
+    name:      form.querySelector('#name').value,
+    email:     form.querySelector('#email').value,
+    phone:     form.querySelector('#phone').value,
+    zip:       form.querySelector('#zip').value,
+    coverages: coverages,
+    notes:     form.querySelector('#notes').value || 'None'
+  };
+
+  try {
+    var res = await fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+    var data = await res.json();
+    if (data.success) {
+      form.style.display = 'none';
+      document.getElementById('form-success').style.display = 'block';
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+      throw new Error(data.message || 'Submission failed');
+    }
+  } catch (err) {
+    submitBtn.textContent = 'Something went wrong — please call (480) 436-3529';
+    submitBtn.style.background = 'var(--sage)';
+    submitBtn.disabled = false;
+  }
+});
+
+(function() {
+  var toggle = document.querySelector('.mobile-toggle');
+  var menu = document.getElementById('mobile-nav');
+  if (!toggle || !menu) return;
+  toggle.addEventListener('click', function() {
+    var isOpen = menu.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    toggle.textContent = isOpen ? '×' : '≡';
+  });
+})();
+</script>
+
+</body>
+</html>
