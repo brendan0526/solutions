@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MDL Insurance Solutions — Home, Auto & Business Insurance in Phoenix, AZ</title>
+<meta name="description" content="Independent insurance agency serving Phoenix, Scottsdale, and Mesa. We shop 100+ carriers to find you the best coverage at the right price.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      MDL <span>Insurance</span>
+      <small>Solutions, LLC · Phoenix, AZ</small>
+    </a>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="personal.html">Personal</a>
+      <a href="commercial.html">Commercial</a>
+      <a href="about.html">About</a>
+      <a href="quote.html" class="nav-cta">Get a Quote</a>
+    </nav>
+    <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false">≡</button>
+  </div>
+  <div class="mobile-nav" id="mobile-nav">
+    <a href="index.html" class="active">Home</a>
+    <a href="personal.html">Personal</a>
+    <a href="commercial.html">Commercial</a>
+    <a href="about.html">About</a>
+    <a href="quote.html" class="nav-cta">Get a Quote</a>
+  </div>
+</header>
+
+<section class="hero topo-bg">
+  <div class="wrap">
+    <div class="hero-inner">
+      <div>
+        <div class="label">Independent Agency · Phoenix, AZ</div>
+        <h1>Better coverage.<br><em>Better price.</em><br>Local people.</h1>
+        <p>We're an independent agency serving Phoenix, Scottsdale, and Mesa. We shop 100+ carriers to find you the right coverage — not just the easiest sale.</p>
+        <div class="hero-actions">
+          <a href="quote.html" class="btn btn-primary">Get a free quote →</a>
+          <a href="tel:+14804363529" class="btn btn-ghost">Call (480) 436-3529</a>
+        </div>
+        <div class="hero-trust">
+          <div class="trust-item">
+            <span class="trust-num">100+</span>
+            <span class="trust-label">Carrier markets</span>
+          </div>
+          <div class="trust-item">
+            <span class="trust-num">AZ</span>
+            <span class="trust-label">Licensed & local</span>
+          </div>
+          <div class="trust-item">
+            <span class="trust-num">48hr</span>
+            <span class="trust-label">Quote turnaround</span>
+          </div>
+          <div class="trust-item">
+            <span class="trust-num">$0</span>
+            <span class="trust-label">Cost to compare</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="hero-card-label">What can we quote you?</div>
+        <h3>Find your coverage in seconds</h3>
+        <div class="quick-links">
+          <a href="quote.html?type=auto" class="quick-link">🚗 Auto Insurance <span>→</span></a>
+          <a href="quote.html?type=home" class="quick-link">🏠 Home Insurance <span>→</span></a>
+          <a href="quote.html?type=business" class="quick-link">🏢 Business Insurance <span>→</span></a>
+          <a href="quote.html?type=renters" class="quick-link">🔑 Renters Insurance <span>→</span></a>
+          <a href="quote.html?type=sr22" class="quick-link">📋 SR-22 Filing <span>→</span></a>
+          <a href="quote.html" class="quick-link">+ More coverage types <span>→</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="paper-bg">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="label">Personal Lines</div>
+      <h2>Coverage for everyday life.</h2>
+      <p>From your car to your home to your apartment, we find the right policy at the right price — fast.</p>
+    </div>
+    <div class="policy-grid">
+      <div class="policy-card">
+        <div class="policy-icon">🚗</div>
+        <div class="policy-type">Personal</div>
+        <h3>Auto Insurance</h3>
+        <p>Liability, comprehensive, and collision coverage. We shop the market so you're not overpaying.</p>
+      </div>
+      <div class="policy-card">
+        <div class="policy-icon">🏠</div>
+        <div class="policy-type">Personal</div>
+        <h3>Home Insurance</h3>
+        <p>Protect your home and belongings from fire, theft, weather, and liability claims.</p>
+      </div>
+      <div class="policy-card">
+        <div class="policy-icon">🔑</div>
+        <div class="policy-type">Personal</div>
+        <h3>Renters Insurance</h3>
+        <p>Your landlord's policy covers the building — not your stuff. We cover your stuff.</p>
+      </div>
+      <div class="policy-card">
+        <div class="policy-icon">🏍️</div>
+        <div class="policy-type">Personal</div>
+        <h3>Motorcycle</h3>
+        <p>Year-round or seasonal coverage for bikes, cruisers, and sport motorcycles.</p>
+      </div>
+      <div class="policy-card">
+        <div class="policy-icon">📋</div>
+        <div class="policy-type">Personal</div>
+        <h3>SR-22 Filing</h3>
+        <p>Fast SR-22 filings for Arizona drivers. Same-day filing available in most cases.</p>
+      </div>
+      <div class="policy-card">
+        <div class="policy-icon">🏡</div>
+        <div class="policy-type">Personal</div>
+        <h3>Landlord Insurance</h3>
+        <p>Rental property coverage for owners — property damage, liability, and lost rent.</p>
+      </div>
+      <div class="policy-card">
+        <div class="policy-icon">❤️</div>
+        <div class="policy-type">Personal</div>
+        <h3>Life Insurance</h3>
+        <p>Term and whole life options to protect your family's financial future.</p>
+      </div>
+      <div class="policy-card">
+        <div class="policy-icon">🏥</div>
+        <div class="policy-type">Personal</div>
+        <h3>Health Insurance</h3>
+        <p>Individual and family health plans, including ACA marketplace options.</p>
+      </div>
+    </div>
+    <div style="margin-top:32px;">
+      <a href="personal.html" class="btn btn-ghost">View all personal coverage →</a>
+    </div>
+  </div>
+</section>
+
+<section class="topo-bg">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="label">Commercial Lines</div>
+      <h2>Coverage for your business.</h2>
+      <p>From a one-person shop to a growing contractor operation, we write commercial insurance that matches how you actually work.</p>
+    </div>
+    <div class="policy-grid">
+      <div class="policy-card">
+        <div class="policy-icon">🛡️</div>
+        <div class="policy-type">Commercial</div>
+        <h3>General Liability</h3>
+        <p>The foundation policy for almost any business — third-party injury and property damage.</p>
+      </div>
+      <div class="policy-card">
+        <div class="policy-icon">📦</div>
+        <div class="policy-type">Commercial</div>
+        <h3>BOP — Business Owner Policy</h3>
+        <p>GL and property bundled into one policy — the most cost-effective starting point for small businesses.</p>
+      </div>
+      <div class="policy-card">
+        <div class="policy-icon">👷</div>
+        <div class="policy-type">Commercial</div>
+        <h3>Contractor Insurance</h3>
+        <p>GL, tools, and workers comp built around jobsite requirements and GC certificates.</p>
+      </div>
+      <div class="policy-card">
+        <div class="policy-icon">👥</div>
+        <div class="policy-type">Commercial</div>
+        <h3>Workers' Compensation</h3>
+        <p>Required once you have employees. We rate it to your actual payroll and job classes.</p>
+      </div>
+      <div class="policy-card">
+        <div class="policy-icon">🚚</div>
+        <div class="policy-type">Commercial</div>
+        <h3>Commercial Auto</h3>
+        <p>Work trucks, vans, and fleets — covered under one program instead of multiple policies.</p>
+      </div>
+      <div class="policy-card">
+        <div class="policy-icon">🏗️</div>
+        <div class="policy-type">Commercial</div>
+        <h3>Builder's Risk</h3>
+        <p>Coverage for structures under construction — materials, weather, and theft before completion.</p>
+      </div>
+      <div class="policy-card">
+        <div class="policy-icon">⚖️</div>
+        <div class="policy-type">Commercial</div>
+        <h3>Professional Liability</h3>
+        <p>E&O coverage for businesses where the product is advice, design, or a service.</p>
+      </div>
+      <div class="policy-card">
+        <div class="policy-icon">🔒</div>
+        <div class="policy-type">Commercial</div>
+        <h3>Cyber Liability</h3>
+        <p>Data breach and ransomware coverage — increasingly required by clients and contracts.</p>
+      </div>
+    </div>
+    <div style="margin-top:32px;">
+      <a href="commercial.html" class="btn btn-ghost">View all commercial coverage →</a>
+    </div>
+  </div>
+</section>
+
+<section class="sage-bg">
+  <div class="wrap">
+    <div class="section-head center" style="color:var(--paper);">
+      <div class="label" style="color:var(--terracotta-light); justify-content:center;">Why MDL</div>
+      <h2>Independent means we work for you.</h2>
+      <p>Captive agents can only offer one company's products. We shop the whole market.</p>
+    </div>
+    <div class="stats-row">
+      <div class="stat-cell">
+        <span class="num">100+</span>
+        <span class="lbl">Carrier markets we access</span>
+      </div>
+      <div class="stat-cell">
+        <span class="num">48hr</span>
+        <span class="lbl">Average quote turnaround</span>
+      </div>
+      <div class="stat-cell">
+        <span class="num">AZ</span>
+        <span class="lbl">Local, licensed, accountable</span>
+      </div>
+      <div class="stat-cell">
+        <span class="num">$0</span>
+        <span class="lbl">Fee to compare your options</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="paper-bg">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="label">How it works</div>
+      <h2>Simple from start to certificate.</h2>
+    </div>
+    <div class="process-grid">
+      <div class="process-step-card">
+        <div class="step-num">01</div>
+        <h3>Tell us what you need</h3>
+        <p>Fill out a quick form or give us a call. We ask the right questions upfront so we don't waste your time later.</p>
+      </div>
+      <div class="process-step-card">
+        <div class="step-num">02</div>
+        <h3>We shop the market</h3>
+        <p>We run your risk across our 100+ carrier markets to find the options that actually fit — not just the easiest to place.</p>
+      </div>
+      <div class="process-step-card">
+        <div class="step-num">03</div>
+        <h3>You pick the best fit</h3>
+        <p>We present your options with the tradeoffs explained in plain terms. You decide — no pressure.</p>
+      </div>
+      <div class="process-step-card">
+        <div class="step-num">04</div>
+        <h3>Coverage bound, done</h3>
+        <p>We handle the paperwork, issue your certificate or ID cards, and stay available when you need us.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="topo-bg">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="label">Client stories</div>
+      <h2>What our clients say.</h2>
+    </div>
+    <div class="testimonial-grid">
+      <div class="testimonial">
+        <div class="testimonial-stars">★★★★★</div>
+        <p>"Brendan saved me over $400 a year on my auto insurance by switching carriers. Took maybe 20 minutes total. Wish I'd called sooner."</p>
+        <div class="testimonial-author">— Placeholder Client Name</div>
+        <div class="testimonial-location">Phoenix, AZ · Auto Insurance</div>
+      </div>
+      <div class="testimonial">
+        <div class="testimonial-stars">★★★★★</div>
+        <p>"Got my contractor GL and workers comp sorted in two days. They knew exactly what the GC required and had the certificate ready same day."</p>
+        <div class="testimonial-author">— Placeholder Client Name</div>
+        <div class="testimonial-location">Scottsdale, AZ · Contractor Insurance</div>
+      </div>
+    </div>
+    <p style="font-size:0.8rem; color:var(--taupe); margin-top:16px;">* Replace with real client testimonials before launch.</p>
+  </div>
+</section>
+
+<section class="sage-bg" id="quote-cta">
+  <div class="wrap">
+    <div class="flex-between">
+      <div>
+        <div class="label" style="color:var(--terracotta-light);">Get started today</div>
+        <h2 style="max-width:500px; color:var(--paper);">Ready to see what you could be paying?</h2>
+        <p style="margin-top:12px;">Free quote, no obligation, no sales pressure.</p>
+      </div>
+      <div style="display:flex; flex-direction:column; gap:12px; align-items:flex-start;">
+        <a href="quote.html" class="btn btn-primary">Get a free quote →</a>
+        <a href="tel:+14804363529" class="btn btn-ghost-light">Call (480) 436-3529</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>MDL Insurance Solutions</h4>
+        <p>Independent insurance agency serving Phoenix, Scottsdale, Mesa, and surrounding areas. Licensed in Arizona.</p>
+        <p style="margin-top:12px;">NPN: 21218944</p>
+      </div>
+      <div class="footer-col">
+        <h4>Personal</h4>
+        <a href="personal.html">Auto Insurance</a>
+        <a href="personal.html">Home Insurance</a>
+        <a href="personal.html">Renters Insurance</a>
+        <a href="personal.html">SR-22 Filing</a>
+        <a href="personal.html">Motorcycle</a>
+      </div>
+      <div class="footer-col">
+        <h4>Commercial</h4>
+        <a href="commercial.html">General Liability</a>
+        <a href="commercial.html">Contractor Insurance</a>
+        <a href="commercial.html">Workers' Comp</a>
+        <a href="commercial.html">BOP</a>
+        <a href="commercial.html">Builder's Risk</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="tel:+14804363529">(480) 436-3529</a>
+        <a href="mailto:Brendan@mdlinsurancepro.com">Brendan@mdlinsurancepro.com</a>
+        <a href="quote.html">Get a Quote</a>
+        <a href="about.html">About Us</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 MDL Insurance Solutions, LLC. All rights reserved.</span>
+      <span>NPN: 21218944 · Licensed in AZ · Coverage subject to underwriting approval.</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function() {
+  var toggle = document.querySelector('.mobile-toggle');
+  var menu = document.getElementById('mobile-nav');
+  if (!toggle || !menu) return;
+  toggle.addEventListener('click', function() {
+    var isOpen = menu.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    toggle.textContent = isOpen ? '×' : '≡';
+  });
+})();
+</script>
+
+</body>
+</html>
