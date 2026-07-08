@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Commercial Insurance — MDL Insurance Solutions</title>
-<meta name="description" content="Business insurance for Phoenix contractors, small businesses, and growing companies. GL, workers comp, BOP, builder's risk, and more.">
+<meta name="description" content="Business insurance for contractors, small businesses, and growing companies. GL, workers comp, BOP, builder's risk, and more.">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -36,7 +36,7 @@
     <h1>Coverage built<br>for your business.</h1>
     <p style="max-width:560px; margin-top:18px; font-size:1.05rem;">From a one-person operation to a growing team, we write commercial coverage that matches how you actually work — not a generic BOP stretched to fit.</p>
     <div style="margin-top:28px;">
-      <a href="quote.html" class="btn btn-primary">Get a business quote →</a>
+      <a href="#biz-quote" class="btn btn-primary">Get a business quote →</a>
     </div>
   </div>
 </section>
@@ -69,7 +69,7 @@
       <p style="font-style:normal; margin-bottom:14px;">Contractors need coverage that survives a GC's certificate review — right limits, right endorsements, right additional insured language. We work with markets that actually write contractors, including roofing, excavation, and specialty trades that standard carriers won't touch.</p>
       <div style="display:flex; gap:10px; flex-wrap:wrap;">
         <span style="font-size:0.8rem; background:var(--sand); padding:6px 12px; border-radius:4px; font-weight:600;">GL + Excess</span>
-        <span style="font-size:0.8rem; background:var(--sand); padding:6px 12px; border-radius:4px; font-weight:600;">Tools & Equipment</span>
+        <span style="font-size:0.8rem; background:var(--sand); padding:6px 12px; border-radius:4px; font-weight:600;">Tools &amp; Equipment</span>
         <span style="font-size:0.8rem; background:var(--sand); padding:6px 12px; border-radius:4px; font-weight:600;">Builder's Risk</span>
         <span style="font-size:0.8rem; background:var(--sand); padding:6px 12px; border-radius:4px; font-weight:600;">Workers' Comp</span>
       </div>
@@ -77,7 +77,7 @@
 
     <div class="testimonial" style="margin-bottom:48px; border-left:3px solid var(--terracotta);">
       <h3 style="margin-bottom:12px;">👥 Workers' Compensation</h3>
-      <p style="font-style:normal; margin-bottom:14px;">Required by Arizona law once you have employees. We rate it to your actual payroll and job classifications — not an estimate that blows up at audit. We also help you understand the experience modification factor and how to keep your rate competitive over time.</p>
+      <p style="font-style:normal; margin-bottom:14px;">Required by law once you have employees. We rate it to your actual payroll and job classifications — not an estimate that blows up at audit. We also help you understand the experience modification factor and how to keep your rate competitive over time.</p>
       <div style="display:flex; gap:10px; flex-wrap:wrap;">
         <span style="font-size:0.8rem; background:var(--sand); padding:6px 12px; border-radius:4px; font-weight:600;">All-state filing</span>
         <span style="font-size:0.8rem; background:var(--sand); padding:6px 12px; border-radius:4px; font-weight:600;">Payroll-rated</span>
@@ -90,7 +90,7 @@
       <p style="font-style:normal; margin-bottom:14px;">Personal auto policies exclude business use. If your team drives to job sites, delivers product, or uses vehicles as part of operations, you need commercial auto — and we can cover everything from a single work truck to a multi-vehicle fleet under one program.</p>
       <div style="display:flex; gap:10px; flex-wrap:wrap;">
         <span style="font-size:0.8rem; background:var(--sand); padding:6px 12px; border-radius:4px; font-weight:600;">Fleet programs</span>
-        <span style="font-size:0.8rem; background:var(--sand); padding:6px 12px; border-radius:4px; font-weight:600;">Hired & non-owned</span>
+        <span style="font-size:0.8rem; background:var(--sand); padding:6px 12px; border-radius:4px; font-weight:600;">Hired &amp; non-owned</span>
         <span style="font-size:0.8rem; background:var(--sand); padding:6px 12px; border-radius:4px; font-weight:600;">Physical damage</span>
       </div>
     </div>
@@ -116,9 +116,119 @@
         <h2 style="max-width:460px; color:var(--paper);">Tell us about the business and we'll find the coverage.</h2>
       </div>
       <div style="display:flex; flex-direction:column; gap:12px;">
-        <a href="quote.html" class="btn btn-primary">Get a business quote →</a>
+        <a href="#biz-quote" class="btn btn-primary">Get a business quote →</a>
         <a href="tel:+14804363529" class="btn btn-ghost-light">Call (480) 436-3529</a>
       </div>
+    </div>
+  </div>
+</section>
+
+<section id="biz-quote">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="label">Business Quote</div>
+      <h2>Get a quote for your business.</h2>
+      <p>Fill out the form below and we'll follow up within one business day with real options.</p>
+    </div>
+    <form class="form-panel" id="biz-quote-form" style="max-width:800px;">
+
+      <h3 style="margin-bottom:24px;">Contact Information</h3>
+      <div class="form-grid" style="margin-bottom:32px;">
+        <div class="form-field">
+          <label for="name">Your name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-field">
+          <label for="business">Business name</label>
+          <input type="text" id="business" name="business" required>
+        </div>
+        <div class="form-field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-field">
+          <label for="phone">Phone number</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+      </div>
+
+      <h3 style="margin-bottom:24px;">Business Details</h3>
+      <div class="form-grid" style="margin-bottom:32px;">
+        <div class="form-field">
+          <label for="state">State of operation</label>
+          <select id="state" name="state" required>
+            <option value="">Select state...</option>
+            <option>Arizona</option>
+            <option>Iowa</option>
+            <option>Missouri</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="industry">Industry</label>
+          <select id="industry" name="industry" required>
+            <option value="">Select industry...</option>
+            <option>Construction / Contracting</option>
+            <option>Transportation / Trucking</option>
+            <option>Food &amp; Hospitality</option>
+            <option>Professional Services</option>
+            <option>Retail</option>
+            <option>Care Provider / Facility</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="revenue">Annual revenue</label>
+          <select id="revenue" name="revenue" required>
+            <option value="">Select range...</option>
+            <option>Under $100K</option>
+            <option>$100K – $250K</option>
+            <option>$250K – $500K</option>
+            <option>$500K – $1M</option>
+            <option>$1M – $5M</option>
+            <option>$5M – $10M</option>
+            <option>$10M+</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="employees">Number of employees</label>
+          <select id="employees" name="employees">
+            <option value="">Select range...</option>
+            <option>Just me</option>
+            <option>2 – 5</option>
+            <option>6 – 15</option>
+            <option>16 – 50</option>
+            <option>50+</option>
+          </select>
+        </div>
+      </div>
+
+      <h3 style="margin-bottom:18px;">Coverage Needed</h3>
+      <div class="checkbox-grid" style="margin-bottom:32px;">
+        <label class="checkbox-item"><input type="checkbox" name="coverage" value="GL"> General Liability</label>
+        <label class="checkbox-item"><input type="checkbox" name="coverage" value="WC"> Workers' Comp</label>
+        <label class="checkbox-item"><input type="checkbox" name="coverage" value="Auto"> Commercial Auto</label>
+        <label class="checkbox-item"><input type="checkbox" name="coverage" value="BOP"> BOP</label>
+        <label class="checkbox-item"><input type="checkbox" name="coverage" value="BuildersRisk"> Builder's Risk</label>
+        <label class="checkbox-item"><input type="checkbox" name="coverage" value="Umbrella"> Umbrella / Excess</label>
+        <label class="checkbox-item"><input type="checkbox" name="coverage" value="ProfLiability"> Professional Liability</label>
+        <label class="checkbox-item"><input type="checkbox" name="coverage" value="Cyber"> Cyber Liability</label>
+        <label class="checkbox-item"><input type="checkbox" name="coverage" value="NotSure"> Not sure yet</label>
+      </div>
+
+      <div class="form-field full" style="margin-bottom:32px;">
+        <label for="notes">Anything specific we should know? (optional)</label>
+        <textarea id="notes" name="notes" rows="3"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center; font-size:1rem; padding:18px;">Submit for quote →</button>
+      <p style="font-size:0.78rem; color:var(--taupe); margin-top:14px; line-height:1.5;">By submitting, you consent to be contacted by MDL Insurance Solutions by phone, email, or text regarding your quote request, even if your number is on a Do Not Call registry. This is not a condition of purchase. View our <a href="privacy.html" style="color:var(--terracotta-dark); text-decoration:underline;">Privacy Policy</a>.</p>
+    </form>
+
+    <div id="biz-quote-success" style="display:none; text-align:center; padding:80px 20px; max-width:560px; margin:0 auto;">
+      <div style="font-size:3rem; margin-bottom:20px;">✅</div>
+      <h2 style="margin-bottom:14px;">Got it — we're on it.</h2>
+      <p style="font-size:1.05rem;">Someone from MDL will follow up within one business day with real options for your business coverage. For anything urgent, call <a href="tel:+14804363529" style="color:var(--terracotta-dark); font-weight:700;">(480) 436-3529</a>.</p>
     </div>
   </div>
 </section>
@@ -164,6 +274,53 @@
 </footer>
 
 <script>
+document.getElementById('biz-quote-form').addEventListener('submit', async function(e) {
+  e.preventDefault();
+  var form = this;
+  var submitBtn = form.querySelector('button[type="submit"]');
+  submitBtn.textContent = 'Sending...';
+  submitBtn.disabled = true;
+
+  var coverages = Array.from(form.querySelectorAll('input[name="coverage"]:checked'))
+                       .map(function(cb) { return cb.value; }).join(', ') || 'None selected';
+
+  var payload = {
+    access_key: 'ec1e66be-d7bb-4315-ad79-1dcffc0374ff',
+    subject: 'Business Quote Request — MDL Insurance Solutions',
+    from_name: 'MDL Insurance Solutions Website',
+    name:      form.querySelector('#name').value,
+    email:     form.querySelector('#email').value,
+    phone:     form.querySelector('#phone').value,
+    business:  form.querySelector('#business').value,
+    state:     form.querySelector('#state').value,
+    industry:  form.querySelector('#industry').value,
+    revenue:   form.querySelector('#revenue').value,
+    employees: form.querySelector('#employees').value,
+    coverages: coverages,
+    notes:     form.querySelector('#notes').value || 'None'
+  };
+
+  try {
+    var res = await fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+    var data = await res.json();
+    if (data.success) {
+      form.style.display = 'none';
+      document.getElementById('biz-quote-success').style.display = 'block';
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+      throw new Error(data.message);
+    }
+  } catch (err) {
+    submitBtn.textContent = 'Something went wrong — please call (480) 436-3529';
+    submitBtn.style.background = 'var(--sage)';
+    submitBtn.disabled = false;
+  }
+});
+
 (function() {
   var toggle = document.querySelector('.mobile-toggle');
   var menu = document.getElementById('mobile-nav');
