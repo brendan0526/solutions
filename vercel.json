@@ -1,0 +1,25 @@
+{
+  "redirects": [
+    { "source": "/auto-insurance", "destination": "/personal.html", "permanent": true },
+    { "source": "/home-insurance", "destination": "/personal.html", "permanent": true },
+    { "source": "/renters-insurance", "destination": "/personal.html", "permanent": true },
+    { "source": "/motorcycle-insurance", "destination": "/personal.html", "permanent": true },
+    { "source": "/sr-22", "destination": "/personal.html", "permanent": true },
+    { "source": "/sr22", "destination": "/personal.html", "permanent": true },
+    { "source": "/life-insurance", "destination": "/personal.html", "permanent": true },
+    { "source": "/health-insurance", "destination": "/personal.html", "permanent": true },
+    { "source": "/commercial-insurance", "destination": "/commercial.html", "permanent": true },
+    { "source": "/commercial-auto", "destination": "/commercial.html", "permanent": true },
+    { "source": "/general-liability", "destination": "/commercial.html", "permanent": true },
+    { "source": "/workers-comp", "destination": "/commercial.html", "permanent": true },
+    { "source": "/workers-compensation", "destination": "/commercial.html", "permanent": true },
+    { "source": "/contractors-insurance", "destination": "/commercial.html", "permanent": true },
+    { "source": "/builders-risk", "destination": "/commercial.html", "permanent": true },
+    { "source": "/contact", "destination": "/quote.html", "permanent": true },
+    { "source": "/get-a-quote", "destination": "/quote.html", "permanent": true },
+    { "source": "/quote-form", "destination": "/quote.html", "permanent": true },
+    { "source": "/about", "destination": "/index.html", "permanent": true },
+    { "source": "/about-us", "destination": "/index.html", "permanent": true },
+    { "source": "/home", "destination": "/index.html", "permanent": true }
+  ]
+}
