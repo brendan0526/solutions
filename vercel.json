@@ -14,8 +14,6 @@
     { "source": "/commercial-auto", "destination": "/commercial", "permanent": true },
     { "source": "/contact", "destination": "/quote", "permanent": true },
     { "source": "/get-a-quote", "destination": "/quote", "permanent": true },
-    { "source": "/about", "destination": "/", "permanent": true },
-    { "source": "/about-us", "destination": "/", "permanent": true },
     { "source": "/home", "destination": "/", "permanent": true }
   ]
 }
