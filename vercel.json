@@ -11,7 +11,7 @@
     { "source": "/life-insurance", "destination": "/personal", "permanent": true },
     { "source": "/health-insurance", "destination": "/personal", "permanent": true },
     { "source": "/commercial-insurance", "destination": "/commercial", "permanent": true },
-    { "source": "/commercial-auto", "destination": "/commercial", "permanent": true },
+
     { "source": "/contact", "destination": "/quote", "permanent": true },
     { "source": "/get-a-quote", "destination": "/quote", "permanent": true },
     { "source": "/home", "destination": "/", "permanent": true }
