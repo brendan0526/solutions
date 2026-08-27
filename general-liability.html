@@ -405,6 +405,7 @@ document.getElementById('gl-form').addEventListener('submit', async function(e) 
     });
     var data = await res.json();
     if (data.success) {
+      gtag_report_conversion();
       form.style.display = 'none';
       document.getElementById('gl-success').style.display = 'block';
       window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -417,6 +418,17 @@ document.getElementById('gl-form').addEventListener('submit', async function(e) 
     submitBtn.disabled = false;
   }
 });
+</script>
+
+
+<!-- Google Ads Conversion Tracking -->
+<script>
+function gtag_report_conversion() {
+  gtag('event', 'conversion', {
+    'send_to': 'AW-17668121322/lffrCNrJ_ugcEOrF6OhB'
+  });
+  return false;
+}
 </script>
 
 </body>
